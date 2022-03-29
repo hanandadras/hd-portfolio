@@ -1,0 +1,15 @@
+import React from 'react'
+
+const About = () => {
+  return (
+    <section className="my-5">
+    <h1 id="about">About me:</h1>
+    <img src="./images/laptop.avif" className="my-2" style={{ width: "100%" }}alt="cover"/>
+    {/* <img src={coverImage} className="my-2" style={{ width: "80%" }} alt="cover" /> */}
+    <p>I am a candidate at UC Davis Full Stack Dev</p>
+    <p>I like teamwork, innovative apps and continuing learning.</p> 
+    </section>
+  )
+}
+
+export default About;
