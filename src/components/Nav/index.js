@@ -13,17 +13,10 @@ function Nav(props) {
   } = props;
 
 
-
-
-  // useEffect(() => {
-  //   document.title = capitalizeFirstLetter(currentCategory.name);
-  // }, [currentCategory]);
-
-  const handleClick = (item) => {
-    console.log(item);
-    return item;
-  };
-
+  // const handleClick = (item) => {
+  //   console.log(item);
+  //   return item;
+  // };
 
   // WHERE TO MODIFY THE VALUE OF USER SELECTION?
 {/* <Nav
@@ -44,12 +37,12 @@ function Nav(props) {
       </h2>
       <nav>
         <ul className="flex-row">
-        <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+        <li className="mx-2">
           <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
               About me
             </a>
           </li>
-          <li className="mx-2">
+          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
           <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>
           {categories.map((category) => (

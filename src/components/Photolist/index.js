@@ -23,17 +23,24 @@ const PhotoList = ({ category }) => {
   ]);
 
   const currentPhotos = photos.filter((photo) => photo.category === category);
-
+  const [currentPhoto, setCurrentPhoto] = useState();
+  const toggleModal = (image, i) => {
+    setCurrentPhoto({...image, index: i});
+  }
   return (
     <div>
-      <div className="flex-row">
+      <div className="flex-row" />
+      return (
+  <div>
+    <Modal />
         {currentPhotos.map((image, i) => (
-          <img
-            src={require(`../../assets/small/${category}/${i}.jpg`)}
-            alt={image.name}
-            className="img-thumbnail mx-1"
-            key={image.name}
-          />
+         <img
+         src={require(`../../assets/small/${category}/${i}.jpg`)}
+         alt={image.name}
+         className="img-thumbnail mx-1"
+         onClick={() => toggleModal(image, i)}
+         key={image.name}
+       />
         ))}
       </div>
     </div>
