@@ -7,7 +7,7 @@ const About = () => {
     {/* <img src={coverImage} className="my-2" style={{ width: "80%" }} alt="cover" /> */}
     <h1 id="about">About me:</h1>
     <p>I am a candidate at UC Davis Full Stack Dev</p>
-    <p>I like teamwork, innovative apps and continuing learning.</p> 
+    <p>I like teamwork, innovative apps and continuous learning.</p> 
     </section>
   )
 }
