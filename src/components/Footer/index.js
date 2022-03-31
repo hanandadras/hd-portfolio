@@ -15,6 +15,7 @@ function Footer() {
           >
             LinkedIn
           </a>
+          <br></br>
           <a href="https://github.com/hanandadras" target="_blank" rel="noreferrer">
             Github
           </a>

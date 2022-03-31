@@ -12,25 +12,25 @@ function Resume() {
 				</a>
 			</div>
 			<div>
-				<h5>Front-End Proficiencies</h5>
+				<h5>Front-End Skills</h5>
 				<ol>
 					<li>HTML5, CSS, Javascript, jQuery, Bootstrap, react. </li>
 				
 				</ol>
 				<br></br>
-				<h5>Back-End Proficiencies</h5>
+				<h5>Back-End Skills</h5>
 				<ol>
 					<li>NodeJS, Express, MVC, PWA</li>
 			
 				</ol>
 				<br></br>
-				<h5>Developer Proficiencies</h5>
+				<h5>Developer Skills</h5>
 				<ol>
 					<li>Git, npm, Jest, webpack</li>
 			
 				</ol>
 				<br></br>
-				<h5>Database Proficiencies</h5>
+				<h5>Database Skills</h5>
 				<ol>
 					<li>MySQL, NoSQL, Sequelize, MongoDB, Mongoose, Graphql</li>
 			
