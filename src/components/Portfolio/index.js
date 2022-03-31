@@ -30,9 +30,9 @@ function Portfolio() {
 	return (
 		<section>
 			<div className="center">
-				<h1 className="page-header">job-aid <br></br> 'https://github.com/hanandadras/job-aid'<br></br>
-				moviesNme <br></br>'https://github.com/MeenaAlemiJalal/moviesNme'<br></br>
-				ArtMart<br></br> 'https://github.com/hanandadras/ArtMart'</h1>
+				<h3 className="page-header">job-aid/</h3> <br></br>
+				<h2 className="page-header2">moviesNme</h2><br></br>
+				<h1 className="page-header">ArtMart</h1><br></br>
 			</div>
 			<div>
 				<ul className="flex-row mobile-row">
